@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Identificador</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header>
+    <h1>Identificador</h1>
+  </header>
+  <section>
+    <div>
+      <p>Nome: <input type="text" name="tnome" id="tnome"> Sobrenome: <input type="text" name="tsobre" id="tsobre"></p>
+      <p>Ano de nascimento: <input type="number" name="tano" id="tano"></p>
+      <p>Sexo: <input type="radio" name="sex" id="masc"> Masculino <input type="radio" name="sex" id="fem"> Feminino</p>
+      <p>Email: <input type="text" name="temail" id="temail"></p>
+      <input type="button" value="Identificar" onclick="identificar()">
+    </div>
+<br>
+    <div id="resul">
+      Identificando...
+    </div>
+  </section>
+  <footer>
+    &copy; Orasio
+  </footer>
+  
+  <script src="identificador.js"></script>
+</body>
+</html>
